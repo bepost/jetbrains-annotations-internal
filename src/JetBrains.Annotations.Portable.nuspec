@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>JetBrains.Annotations.Portable</id>
+    <version>8.2.0</version>
+    <title>JetBrains.Annotations internal implementation</title>
+    <authors>Bepost</authors>
+    <owners>Bepost</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Internal implementation for annotation attributes following JetBrains' Resharper conventions.</description>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+  <files>
+	<file src="JetBrains.Annotations\*.*" target="content\JetBrains.Annotations" />
+   </files>
+</package>
