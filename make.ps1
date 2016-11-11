@@ -1,1 +1,0 @@
-.\nuget.exe pack .\src\JetBrains.Annotations.Portable.nuspec -OutputDirectory .\dist
