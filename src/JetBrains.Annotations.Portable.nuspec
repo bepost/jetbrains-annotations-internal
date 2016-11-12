@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>JetBrains.Annotations.Portable</id>
-    <version>10.2.1</version>
+    <version>10.2.2</version>
     <title>JetBrains ReSharper Annotations - C# Internal Implementation</title>
     <authors>Bepost</authors>
     <owners>Bepost</owners>
@@ -13,6 +13,8 @@
       ReSharper Annotations help reduce false positive warnings, explicitly declare purity and nullability in your code, deal with implicit usages of members, support special semantics of APIs in ASP.NET and XAML frameworks and otherwise increase accuracy of ReSharper code inspections.
 
       This package is a clone of the JetBrains.Annotations project by JetBrains, but not resulting in a public .dll that could prove to collide with other implementations, but resulting in an internal code contribution that will not collide externally.
+
+      For some reason the Nuget team decided that the content files feature is not (yet) available for .net Core projects. In this situation you might want to consider downloading  the actual code file. See https://github.com/bepost/jetbrains-annotations-internal for more information.
 
       All credits for the actual functionality go to the JetBrains team.
     </description>
