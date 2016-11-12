@@ -1,3 +1,6 @@
+## [10.2.3] - 2016-11-13
+- Add source attribution text to source
+
 ## [10.2.2] - 2016-11-12
 - Update readme and discription
 

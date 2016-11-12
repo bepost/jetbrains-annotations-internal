@@ -1,4 +1,4 @@
-version: 10.2.2.{build}
+version: 10.2.3.{build}
 build_script:
 - ps: >-
     New-Item -ItemType Directory -Force -Path .\dist
