@@ -1,3 +1,5 @@
+[![AppVeyor build status](https://img.shields.io/appveyor/ci/joepb/jetbrains-annotations-internal/master.svg?label=appveyor&style=flat-square)](https://ci.appveyor.com/project/joepb/jetbrains-annotations-internal/branch/master) [![NuGet](https://img.shields.io/nuget/v/JetBrains.Annotations.Portable.svg?style=flat-square&label=nuget)](https://www.nuget.org/packages/JetBrains.Annotations.Portable/)
+
 # JetBrains ReSharper Annotations - C# Internal Implementation
 
 ReSharper Annotations help reduce false positive warnings, explicitly declare purity and nullability in your code, deal with implicit usages of members, support special semantics of APIs in ASP.NET and XAML frameworks and otherwise increase accuracy of ReSharper code inspections.
